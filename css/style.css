@@ -138,8 +138,6 @@ strong {
     width: 100%;
 }
 
-
-
 /* header */
 
 .header {
@@ -364,9 +362,7 @@ strong {
     background: #1b1716cd;
 }
 
-
 /* concept */
-
 .concept--garerry__wrapper {
     display: flex;
     flex-direction: column;
@@ -387,9 +383,7 @@ strong {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
 
 .consept--garerry__area--01 {
     display: flex;
@@ -421,7 +415,6 @@ strong {
     }
 
     .concept__text--01 {
-
         padding: 80px 16px 0;
     }
 
@@ -437,7 +430,6 @@ strong {
         @media (max-width:768px) {
             display: none;
         }
-
 
         .concept--img02 {
             width: 100%;
@@ -465,7 +457,6 @@ strong {
     position: relative;
     display: flex;
     height: 100%;
-
 }
 
 .consept--garerry__area--03 {
@@ -511,6 +502,7 @@ strong {
 /* menu */
 .menu {
     padding: 240px 0 0;
+
     @media (max-width:768px) {
         padding: 160px 0 0;
     }
@@ -624,7 +616,6 @@ article.media--revers {
 
 /* garerry */
 #garerry {
-
   padding: 120px 0 0;
 }
 
@@ -632,7 +623,6 @@ article.media--revers {
     width: 100%;
     height: auto;
     object-fit: cover;
-    
 }
 
 .swiper--wrapper {
@@ -648,9 +638,7 @@ aspect-ratio: 4/3;
 @media (max-width:768px) {
         height: 100px;
     }
-
 }
-
 
 /* adress */
 .access__area {
@@ -710,8 +698,6 @@ aspect-ratio: 4/3;
     }
 }
 
-
-
 .map {
     width: 50%;
     padding-right: 40px;
@@ -719,19 +705,15 @@ aspect-ratio: 4/3;
     object-fit: cover;
     overflow: hidden;
 
-
     @media (max-width:768px) {display: block;
         width: 100%;
         margin-bottom: 24px;
-        padding: 0;
-        
-       
+        padding: 0;  
     }
 }
 
 /* footer */
 footer {
-    max-width: 1440px;
     width: 100%;
     display: flex;
     height: 400px;
