@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ハンドメードのパーティープラン</title>
+    <!-- reset.css destyle -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif+JP:wght@200..900&display=swap"
+        rel="stylesheet">
+    <!-- swiper CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" >
+   
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__logo">hand Made</h1>
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#top" class="header__btn btn">Top</a></li>
+                <li class="nav__item"><a href="#concept" class="header__btn btn">Concept</a></li>
+                <li class="nav__item"><a href="#menu" class="header__btn btn">Menu</a></li>
+                <li class="nav__item"><a href="#access" class="header__btn btn">Contact</a></li>
+            </ul>
+            <div class="form--btn"><a href="#information" class="header__btn btn">予約フォームへ</a></div>
+        </nav>
+
+        <!-- hamburger-menu -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+        </div>
+        <nav class="modal-menu slide-top" id="modal-menu">
+            <a href="#" class="modal-menu__item">
+                <span class="modal-text">top</span>
+            </a>
+            <a href="#concept" class="modal-menu__item">
+                <span class="modal-text">concept</span>
+            </a>
+            <a href="#menu" class="modal-menu__item">
+                <span class="modal-text">menu</span>
+            </a>
+            <a href="#information" class="modal-menu__item">
+                <span class="modal-text">contact</span>
+            </a>
+            <a href="#contact" class="modal-menu__item">
+                <span class="modal-text">予約フォーム</span>
+            </a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="top" class="section--top">
+            <div class="contents--container">
+                <h2 class="main--title">ハンドメード</h2>
+            </div>
+        </section>
+        <section id="main-view" class="section-main-view">
+            <div class="contents--container view-area">
+                <div class="taitle--inner">
+                    <hgroup class="title--area__main--viwe">
+                        <h2 class="section--title__md">ハンドメードの</h2>
+                        <h2 class="section--title__xlg">Party Pran</h2>
+                        <h2 class="section--title__sm">美味しい料理と尽きないおしゃべり。笑顔が輝く、忘れられないディナーをあなたに。</h2>
+                    </hgroup>
+                </div>
+            </div>
+        </section>
+        <section id="concept" class="section">
+            <div class="contents--container">
+                <hgroup class="title--area">
+                    <h2 class="section--title__md">Consept</h2>
+                    <h2 class="section--title__sm">語り合うほど、美味しくなる時間。<br>
+                        大切な人と過ごす、美食と会話のディナープランを提供いたします。</h2>
+                </hgroup>
+                <div class="concept--garerry__wrapper">
+                    <div class="concept--garerry__inner consept--garerry__area--01">
+                        <img src="./img/hand made店内写真.JPG" alt="店内写真" class="consept--garerry__img concept--img01">
+                        <p class="concept__message concept__text--01">美味しいね、楽しいね。<br>
+                            そんな言葉が自然とこぼれる、<br>
+                            心温まるディナープラン。
+                        </p>
+                        <figure class="concept--grerry__img--02">
+                            <img src="./img/パーティープラン全体写真.JPG" alt="" class="consept--garerry__img concept--img02">
+                            <img src="./img/ジェノベーゼパスタ.jpg" alt="" class="consept--garerry__img concept--img03">
+                        </figure>
+                    </div>
+                    <div class="concept--garerry__inner consept--garerry__area--02">
+
+                    </div>
+                    <div class="concept--garerry__inner consept--garerry__area--03">
+                        <img src="./img/room01.JPG" alt="" class="consept--garerry__img concept--img04">
+                        <div class="concept__media--body">
+                            <p class="concept__message concept__text--02">思い出話に、未来の話。<br>
+                                美味しい料理を囲んで、<br>
+                                心豊かな時間を分かち合いませんか。</p>
+                        </div>
+                    </div>
+                    <div class="concept--garerry__inner consept--garerry__area--04">
+                        <img src="./img/room02.JPG" alt="" class="consept--garerry__img concept--img05">
+                        <div class="concept__media--body">
+                            <p class="concept__message concept__text--03">お客様一人ひとりに寄り添い、<br>
+                                真心を込めたおもてなしでお待ちしています。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="menu" class="section menu">
+            <div class="contents--container">
+                <h2 class="section--title__md menu--title">Menu</h2>
+                <div class="menu__wrapper">
+                    <div class="menu__media">
+                        <img src="./img/パーティープラン全体写真.JPG" alt="" class="menu--img dinner--img">
+                        <article class="media">
+                            <div class="media__header">
+                                <h3 class="media__title">Dinner</h3>
+                                <div class="media__subtitle">パーティープラン</div>
+                                <p class="media__subtitle--sm">(2時間制)<br>
+                                    ¥5500</p>
+                            </div>
+                            <p class="media__body">人気のメニューを集めたデザート付きの全8品飲み放題のパーティープランになります。<br>
+                                <br>
+                                ※仕入の状況によりお料理が変更になる場合がございます。
+                            </p>
+                        </article>
+                    </div>
+                    <div class="menu__media--revers">
+                        <img src="./img/drink02.JPG" alt="" class="menu--img drink--img">
+                        <article class="media--revers">
+                            <div class="media__header">
+                                <h3 class="media__title">Drink</h3>
+                                <p class="media__body">お酒が苦手な方にも楽しんでいただけるよう、<br>
+                                    各種ソフトドリンクも取り揃えております</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="information" class="section infomation">
+            <div class="contents--container">
+                <h2 class="section--title__md">Information</h2>
+                <div class="information__wrapper">
+                    <div class="information__inner">
+                        <h3 class="section--title__md information__text">ご予約について</h3>
+                        <p class="information__text">ハンドメードでは、旬の食材を厳選して使用しています。<br>
+                            お客様に満足していただけるように日々仕入れなどをしていますので仕入れの状況などでお客様にご迷惑をおかけすることのないように、<strong>予約をご来店の3日前までに予約</strong>をしていただくようお願い致します。<br>
+
+                            ディナープランは3名様からのご提供になていますが、ご相談頂ければできるだけ対応させて頂きます。
+                            (8名様から貸し切り可能となっています。)</p>
+                        <div class="reservation--btn">
+                            <a href="https://page.line.me/339odzwf?oat_content=url&openQrModal=true" target="_blank"
+                                class="btn form--btn">公式LINEで予約</a>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="garerry" class="section">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/room01.JPG" alt="" class=""></div>
+                    <div class="swiper-slide"><img src="./img/drink01.JPG" alt="" class=""></div>
+                    <div class="swiper-slide"><img src="./img/drink02.JPG" alt="" class=""></div>
+                    <div class="swiper-slide"><img src="./img/room01.JPG" alt="" class=""></div>
+                    <div class="swiper-slide"><img src="./img/sweets.JPG" alt="" class=""></div>
+                </div>
+               
+            </div>
+
+        </section>
+        <section id="access" class="section  contact">
+            <div class="contents--container">
+                <h2 class="section--title__md">Access</h2>
+                <div class="access__area">
+                    <articl class="access-media">
+                        <h3 class="access-media__header section--title__sm">Hand Made</h3>
+                        <div class="access-media__body">
+                            <p class="acccess-item adress">住所:熊本県天草市佐伊津町3487-2</p>
+                            <p class="acccess-item tel">電話番号:0969-24-2005</p>
+                            <p class="acccess-item time">営業時間:夜18:30~21:30<br>
+                                (オーダーストップ:21:00)</p>
+                            <p class="acccess-item holiday">店休日：毎週木曜日<br>
+                                (予約、祝日により変更する場合があります)</p>
+                            <a href="https://page.line.me/339odzwf?oat_content=url&openQrModal=true" target="_blank"
+                                class="btn">公式LINEで予約</a>
+                        </div>
+
+                        <div class="sns">
+                            <h3 class="section--title__sm">Sns</h3>
+                            <div class="sns-list">
+                                <a href="https://www.facebook.com/handmade.amakusa/?locale=ja_JP" target="_blank"><span
+                                        class="mdi--facebook"></span></a>
+                                <a href="https://www.instagram.com/hand_made_amakusa/" target="_blank"><span
+                                        class="mdi--instagram"></span></a>
+                            </div>
+                        </div>
+
+                    </articl>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3365.5455537197563!2d130.17395779999998!3d32.4848449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x353fef0faf40844f%3A0xf565f2610ea56bec!2z44OP44Oz44OJ44Oh44O844OJL-ODqOOCt-ODjueGiuacrOWNly_kupXkuIrovrLlnJI!5e0!3m2!1sja!2sjp!4v1746622743854!5m2!1sja!2sjp"
+                            width="650" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h2 class="section--title__md footer-title">Hand Made</h2>
+    </footer>
+
+
+
+    <!-- swiper cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- gsap cdn -->
+     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
