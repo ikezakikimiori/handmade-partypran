@@ -12,7 +12,7 @@ const swiper = new Swiper('.swiper', {
   loop: true, 
   slidesPerView: 3, 
   speed: 6000,
-  allowTouchMove: false,
+  // allowTouchMove:true,
   autoplay: {
     delay: 0,
   },
@@ -47,7 +47,7 @@ gsap.from('.concept-title', {
     trigger: '.concept-title',
     start: 'top 90%',
     end: 'top 40%',
-    markers: true,
+    // markers:true,
   },
 });
 gsap.from('.concept-title__sub', {
@@ -58,7 +58,7 @@ gsap.from('.concept-title__sub', {
     trigger: '.concept-title',
     start: 'top 90%',
     end: 'top 40%',
-    markers: true,
+    // markers:true,
   },
 });
 gsap.from('.concept--img01', {
@@ -71,7 +71,7 @@ gsap.from('.concept--img01', {
     trigger: '.concept--img01',
     start: 'top 100%',
     end: 'top 40%',
-    markers: true,
+    // markers:true,
   },
 });
 
@@ -86,7 +86,7 @@ scale:1.2,
     trigger: '.concept--img02',
     start: 'top 100%',
     end: 'top 40%',
-    markers: true,
+    // markers:true,
   },
 });
 
@@ -101,7 +101,7 @@ scale:0.5,
     trigger: '.concept--img03',
     start: 'top 100%',
     end: 'top 40%',
-    markers: true,
+    // markers:true,
   },
 });
 
@@ -114,7 +114,7 @@ gsap.from('.concept--img04', {
     trigger: '.concept--img04',
     start: 'top 100%',
     end: 'top 40%',
-    markers: true,
+    // markers:true,
   },
 });
 
@@ -127,7 +127,7 @@ gsap.from('.concept--img05', {
     trigger: '.concept--img05',
     start: 'top 100%',
     end: 'top 40%',
-    markers: true,
+    // markers:true,
   },
 });
 
@@ -139,7 +139,7 @@ gsap.from('.concept__text--02', {
     trigger: '.concept__text--02',
     start: 'top 100%',
     end: 'top 40%',
-    markers: true,
+    // markers:true,
   },
 });
 
@@ -151,7 +151,7 @@ gsap.from('.concept__text--03', {
     trigger: '.concept__text--03',
     start: 'top 100%',
     end: 'top 40%',
-    markers: true,
+    // markers:true,
   },
 });
 
@@ -164,7 +164,7 @@ gsap.from('.menu-title', {
     trigger: '.menu-title',
     start: 'top 90%',
     end: 'top 40%',
-    markers: true,
+    // markers:true,
   },
 });
 
@@ -177,7 +177,7 @@ gsap.from('.menu-title', {
     trigger: '.dinner--img',
     start: 'top 100%',
     end: 'top 40%',
-    markers: true,
+    // markers:true,
   },
 });
 
@@ -190,7 +190,7 @@ gsap.from('.drink--img', {
     trigger: '.drink--img',
     start: 'top 100%',
     end: 'top 40%',
-    markers: true,
+    // markers:true,
   },
 });
 
@@ -203,7 +203,7 @@ gsap.from('.information-title', {
     trigger: '.information-title',
     start: 'top 90%',
     end: 'top 40%',
-    markers: true,
+    // markers:true,
   },
 });
 
@@ -216,7 +216,7 @@ gsap.from('.access-title', {
     trigger: '.access-title',
     start: 'top 90%',
     end: 'top 40%',
-    markers: true,
+    // markers:true,
   },
 });
 
@@ -228,7 +228,7 @@ gsap.from('.access-media', {
     trigger: '.access-media',
     start: 'top 70%',
     end: 'top 40%',
-    markers: true,
+    // markers:true,
   },
 });
 
