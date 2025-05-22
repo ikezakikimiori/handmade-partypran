@@ -5,7 +5,7 @@ function toggleMenu() {
     menu.classList.toggle('open');
     trigger.classList.toggle('open');
   }
-
+// -------------------------------------------
 // swiper
 const swiper = new Swiper('.swiper', {
  
